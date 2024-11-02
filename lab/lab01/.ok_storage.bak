@@ -1,0 +1,8 @@
+'return-and-print-correct', (0, 70)
+'debugging-quiz-correct', (512, 70)
+'digit-correct', (1024, 70)
+'middle-correct', (1536, 70)
+'falling-correct', (2048, 70)
+'divisible_by_k-correct', (2560, 70)
+'sum_digits-correct', (3072, 70)
+'double_eights-correct', (3584, 70)
