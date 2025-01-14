@@ -1,0 +1,4 @@
+'VendingMachine-correct', (0, 70)
+'store_digits-correct', (512, 70)
+'deep_map_mut-correct', (1024, 70)
+'two_list-correct', (1536, 70)
