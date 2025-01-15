@@ -192,6 +192,7 @@ class Mint:
         self.update()
 
     def create(self, coin):
+       
         return coin(self.year)
 
     def update(self):

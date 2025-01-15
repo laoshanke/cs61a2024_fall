@@ -181,12 +181,16 @@ def two_list(vals, counts):
     >>> c
     Link(1, Link(1, Link(3, Link(3, Link(2)))))
     """
-    res = Link.empty
-    for x, y in zip(vals[::-1], counts[::-1]):
-        for _ in range(y):
-            res = Link(x, res)
-    return res
-
+    link_ans = Link.empty
+    if counts[0] != 0:
+        counts[0] -= 1
+        link_ans = Link(vals[0],two_list(vals,counts))
+    elif len(counts) > 1:   
+        counts.pop(0)
+        vals.pop(0)
+        link_ans = two_list(vals,counts)
+        
+    return link_ans
 
     
 

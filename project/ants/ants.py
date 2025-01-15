@@ -439,7 +439,7 @@ class QueenAnt(ThrowerAnt):
         in her tunnel.
         """
         # BEGIN Problem 12
-        git add .git initsuper().action(gamestate)
+        super().action(gamestate)
         tmp_place = self.place.exit
         #三种情况 没有/容器/非容
         while tmp_place:
