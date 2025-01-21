@@ -1,0 +1,3 @@
+'pow-correct', (0, 70)
+'repeatedly-cube-correct', (512, 70)
+'cadr-caddr-correct', (1024, 70)
